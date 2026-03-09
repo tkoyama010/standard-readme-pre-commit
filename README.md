@@ -1,5 +1,6 @@
 # standard-readme-pre-commit
 
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/tkoyama010/standard-readme-pre-commit/main.svg)](https://results.pre-commit.ci/latest/github/tkoyama010/standard-readme-pre-commit/main)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
