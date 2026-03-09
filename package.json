@@ -1,0 +1,13 @@
+{
+  "name": "standard-readme-pre-commit",
+  "version": "0.1.0",
+  "description": "pre-commit hook for standard-readme",
+  "main": "./src/index.js",
+  "bin": {
+    "lint-readme": "./src/index.js"
+  },
+  "dependencies": {
+    "standard-readme": "*"
+  },
+  "license": "MIT"
+}
