@@ -20,7 +20,7 @@ Add the following to your `.pre-commit-config.yaml`:
 
 ```yaml
 - repo: https://github.com/tkoyama010/standard-readme-pre-commit
-  rev: v0.1.dev0
+  rev: v0.2.dev0
   hooks:
     - id: standard-readme
 ```
