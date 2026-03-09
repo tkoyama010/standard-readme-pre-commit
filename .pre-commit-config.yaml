@@ -3,3 +3,8 @@ repos:
     rev: aa84f1542273fdb73969f2fa283e5d3f3ba78715
     hooks:
       - id: standard-readme
+  - repo: https://github.com/rbubley/mirrors-prettier
+    rev: v3.8.1
+    hooks:
+      - id: prettier
+        types_or: [yaml, markdown, html, css, scss, javascript, json, toml]
