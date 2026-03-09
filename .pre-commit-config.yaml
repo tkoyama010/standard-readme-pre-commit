@@ -1,8 +1,13 @@
 repos:
-  - repo: https://github.com/tkoyama010/standard-readme-pre-commit
-    rev: aa84f1542273fdb73969f2fa283e5d3f3ba78715
+  - repo: local
     hooks:
       - id: standard-readme
+        name: standard-readme
+        language: node
+        entry: ./src/index.js
+        files: ^README\.md$
+        additional_dependencies:
+          - standard-readme
   - repo: https://github.com/rbubley/mirrors-prettier
     rev: v3.8.1
     hooks:
