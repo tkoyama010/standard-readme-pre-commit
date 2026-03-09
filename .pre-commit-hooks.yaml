@@ -1,0 +1,7 @@
+- id: standard-readme
+  name: standard-readme
+  language: node
+  entry: lint-readme
+  files: ^README\.md$
+  additional_dependencies:
+    - standard-readme
