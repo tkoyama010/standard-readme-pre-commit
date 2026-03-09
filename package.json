@@ -1,6 +1,6 @@
 {
   "name": "standard-readme-pre-commit",
-  "version": "0.1.dev0",
+  "version": "0.2.dev0",
   "description": "pre-commit hook for standard-readme",
   "main": "./src/index.js",
   "bin": {
