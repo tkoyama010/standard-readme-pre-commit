@@ -1,0 +1,5 @@
+repos:
+  - repo: https://github.com/tkoyama010/standard-readme-pre-commit
+    rev: aa84f1542273fdb73969f2fa283e5d3f3ba78715
+    hooks:
+      - id: standard-readme
