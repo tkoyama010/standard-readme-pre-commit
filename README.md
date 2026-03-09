@@ -1,6 +1,7 @@
 # standard-readme-pre-commit
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 A [pre-commit](https://pre-commit.com) hook for [standard-readme](https://github.com/RichardLitt/standard-readme).
 
