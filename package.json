@@ -2,12 +2,25 @@
   "name": "standard-readme-pre-commit",
   "version": "0.2.dev0",
   "description": "pre-commit hook for standard-readme",
-  "main": "./src/index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "bin": {
-    "lint-readme": "./src/index.js"
+    "lint-readme": "./dist/index.js"
   },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
   "dependencies": {
     "standard-readme": "*"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^5.9.3"
+  }
 }
