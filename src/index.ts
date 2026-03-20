@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 "use strict";
 
-const { spawnSync } = require("child_process");
+import { spawnSync } from "child_process";
 
 const result = spawnSync("standard-readme", ["README.md"], {
   encoding: "utf8",
@@ -16,10 +16,10 @@ process.stderr.write(result.stderr || "");
 // checkout path in CI environments (e.g. /code, /workspace).
 // Match only formatted warning lines (spaces around "warning"), not the
 // summary line "⚠ N warning".
-const hasWarnings = (result.stdout || "")
+const hasWarnings: boolean = (result.stdout || "")
   .split("\n")
   .some(
-    (line) =>
+    (line: string): boolean =>
       /\s+warning\s+/.test(line) && !line.includes("appropriate-heading"),
   );
 
