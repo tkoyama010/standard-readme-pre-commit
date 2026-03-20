@@ -3,7 +3,7 @@
 
 const { spawnSync } = require("child_process");
 
-const result = spawnSync("standard-readme", ["README.md"], {
+const result = spawnSync("npx", ["standard-readme", "README.md"], {
   encoding: "utf8",
   cwd: process.cwd(),
   env: process.env,
